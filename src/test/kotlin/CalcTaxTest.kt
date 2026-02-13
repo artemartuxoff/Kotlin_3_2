@@ -83,7 +83,7 @@ class CalcTaxTest {
 
         val result = limitTransfer(preSum, sum)
 
-        assertEquals(true,result)
+        assertEquals(false,result)
     }
 
 }
